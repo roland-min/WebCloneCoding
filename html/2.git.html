@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>헤더 예제</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">디융제 친구들 다 잘되자!!!</a>
+        <div class="title">
+            융합코딩
+            <span>Coding Everybody</span>
+        </div>
+        <div class="menu">
+            <a href="#">후원</a>
+            <a href="#">로그인</a>
+            <a href="#">도움말</a>
+        </div>
+    </header>
+    <!-- 네비게이션 -->
+    <nav class="main-menu">
+        <ul class="menu-list">
+            <li><a href="1.main.html">Main</a></li>
+            <li class="divider">|</li>
+            <li><a href="2.git.html">Git</a></li>
+            <li class="divider">|</li>
+            <li><a href="3.version.html">버전관리</a></li>
+            <li class="divider">|</li>
+            <li><a href="#">클라이언트(x)</a></li>
+            <li class="divider">|</li>
+            <li><a href="#">서버(x)</a></li>
+            <li class="divider">|</li>
+            <li><a href="#">데이터 과학(x)</a></li>
+            <li class="divider">|</li>
+            <li><a href="#">개발도구(x)</a></li>
+            <li class="divider">|</li>
+            <li><a href="#">프로젝트 관리(x)</a></li>
+            <li class="divider">|</li>
+            <li><a href="#">기타(x)</a></li>
+        </ul>
+        <!-- 브레드크럼 -->
+        <nav class="breadcrumb">
+            <ul>
+                <li><a href="#">Main</a></li>
+                <li>&gt;</li>
+                <li><a href="JunsuV2.html">Git</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <!-- 컨텐츠 -->
+    <section class="content">
+        <h1>Git</h1>
+        <p class="timestamp">2024-12-21 10:00:00</p>
+        <h2>Git이란?</h2>
+        <div class="info-box">
+            <ul>
+                <li>Git은 분산 버전 관리 시스템(DVCS)입니다.</li>
+                <li>주요 기능: 코드 히스토리 관리, 협업 지원, 변경 내용 추적.</li>
+                <li>Linus Torvalds에 의해 개발되었습니다.</li>
+                <li>무료로 제공되며 오픈 소스 소프트웨어입니다.</li>
+                <li>로컬 저장소와 원격 저장소를 활용하여 안정적인 버전 관리를 지원합니다.</li>
+            </ul>
+        </div>
+        <br>
+        <h2>Git의 주요 명령어</h2>
+        <div class="info-box">
+            <ul>
+                <li><b>git init</b>: 새로운 Git 저장소를 초기화합니다.</li>
+                <li><b>git clone</b>: 원격 저장소를 로컬로 복제합니다.</li>
+                <li><b>git add</b>: 변경된 파일을 스테이지에 추가합니다.</li>
+                <li><b>git commit</b>: 변경 내용을 로컬 저장소에 저장합니다.</li>
+                <li><b>git push</b>: 로컬 변경 내용을 원격 저장소에 반영합니다.</li>
+                <li><b>git pull</b>: 원격 저장소의 변경 내용을 가져옵니다.</li>
+                <li><b>git status</b>: 현재 저장소 상태를 확인합니다.</li>
+            </ul>
+        </div>
+        <br>
+        <div class="image-container">
+            <img src="image/git.png" alt="gitLogo1" />
+        </div>
+    </section>
+    <!-- 풋터 -->
+    <footer class="footer">
+        <div class="comment-section">
+            <h3>댓글</h3>
+            <form action="#" method="local:5500">
+                <textarea name="comment" rows="4" placeholder="댓글을 입력하세요..."></textarea>
+                <button type="submit">댓글 등록</button>
+            </form>
+            <div class="comments">
+                <p>아직 댓글이 없습니다. 첫 번째 댓글을 남겨보세요!</p>
+            </div>
+        </div>
+    </footer>
+      
+</body>
+</html>
